@@ -1,0 +1,305 @@
+/* Styles pour le corps de la page */
+body {
+    
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour l'en-tête */
+.en-tete1 {
+  
+    color: #D1C000;
+    text-align:center;
+    padding: 20px;
+}
+
+/* Styles pour le titre du budget */
+.en-tete1 h1 {
+    font-size: 40px;
+    margin: 0;
+}
+.en-tete1 h1 strong {
+    background:linear-gradient(#0C5E69,white);/*pour le rendre la lettre  en gradient*/
+    -webkit-background-clip: text; /*pour l'adapter au navigation */
+    color: transparent; /*pour rendre la lettre transparente */
+    font-size: 65px; /* modifie la taille de la police la taille de la police */
+}
+.en-tete1 h3 {
+    font-size: 15px;
+    margin: 0;
+    padding-top: 7px;
+    color:#0C5E69;
+}
+
+/* Styles pour les tableaux */
+table {
+    border-collapse: collapse;
+ 
+   
+}
+
+/* Styles pour les conteneurs des tableaux */
+.table-container {
+   display: inline-block;
+   width: 26.77rem;
+   margin-left: 13px;/*Ne retoucher pas ici */
+   margin-right: 62px;
+   margin-bottom: 7rem;
+   height: 5rem;
+   
+
+   
+  
+}
+.table-container td{
+    height: 4rem;
+}
+/* Styles pour les tableaux */
+table {
+    border-collapse: separate;
+    width: 100%;
+    font-size: 1.25em;
+    margin-top: 1em;
+    align-items: center;
+}
+
+/* Styles pour les cellules d'en-tête (th) */
+th {
+    background-color:#0C5E69;
+    color: white;
+    padding: 10px;
+}
+
+/* Styles pour les cellules de données (td) */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styles pour les titres de section */
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+
+/* Styles pour les cellules d'en-tête (th) */
+th {
+    background-color:#0C5E69 ;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Styles pour les cellules de données (td) */
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Styles pour les boutons */
+td button{
+    
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.supprimer 
+{
+    background-color:red;
+}
+tr td button {
+    background-color: white;
+}
+/* Styles pour les liens */
+tr td button a{
+    color: #D1C000;
+    background-color: white;
+    text-decoration: none;
+    
+}
+
+
+.table-contenair td{
+    border-collapse:collapse;
+    width: 100%;
+    
+   
+}
+
+/* Styles pour les formulaires */
+body form{
+    text-align: center;
+}
+
+
+.form1 {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.form2, .form3 {
+    margin: 10px;
+}
+
+/* Styles pour les titres de section */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #D1C000;
+    text-align: left;
+    
+   
+}
+h3{
+    color: #0C5E69;
+    margin-top: 4rem;
+  
+}
+form{
+    position: relative;
+    text-align: center;
+    
+}
+/*styler la page ajout-depenses*/
+
+.depensecontenair{
+    text-align: center;
+    
+}
+.ajout  {
+    margin-left: -9rem;
+}
+.montant  {
+    margin-left: -9rem;
+}
+
+.depensecontenair h2{
+    color: #0C5E69;
+    
+}
+
+.depensecontenair  .ajout label{
+   
+    margin-top: 10px;
+    margin-left: -9.6rem;
+}
+.depensecontenair  input{
+    width:  20rem;
+    height: 2rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+
+.form1 label{
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    height: 23rem;
+    width: 16rem;
+
+}
+form input{
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+label{
+    color: #0C5E69;
+    font-size: 60px;
+    margin-left:-8rem;
+    margin-bottom: 18rem;
+    
+   
+}
+.VALIDER button{
+    background-color: #0C5E69;
+    color: white;
+    margin-top: 1rem;
+    font-size: large;
+    font-weight: 2rem;
+    border: 5px solid;
+    width: 22rem;
+    height: 3.3rem;
+    text-align: center;
+    margin-left: -2rem;
+
+}
+/*styler la page ajout-revenu*/
+.depensecontenairs{
+    text-align: center;
+    
+}
+.ajouts  {
+    margin-left: -9rem;
+}
+.montant  {
+    margin-left: -9rem;
+}
+
+.depensecontenair h2{
+    color: #0C5E69;
+    
+}
+
+.depensecontenairs  .ajouts label{
+   
+    margin-top: 10px;
+    margin-left: -9.6rem;
+}
+.depensecontenairs  input{
+    width:  20rem;
+    height: 2rem;
+    margin-left: 7rem;
+    margin-top: 1rem;
+}
+
+.form2 label{
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    height: 23rem;
+    width: 16rem;
+
+}
+form input{
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+label{
+    color: #0C5E69;
+    font-size: 60px;
+    margin-left:-8rem;
+    margin-bottom: 18rem;
+    
+   
+}
+.montants{
+    margin-left: -9rem;
+}
+.VALIDER button{
+    background-color: #0C5E69;
+    color: white;
+    margin-top: 1rem;
+    font-size: large;
+    font-weight: 2rem;
+    border: 5px solid;
+    width: 22rem;
+    height: 3.3rem;
+    text-align: center;
+    margin-left: -2rem;
+
+}
+
+
+
+
+
